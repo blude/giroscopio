@@ -31,13 +31,13 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /* Prepare theme for plugins */
 @import url('../thematic/library/styles/plugins.css');
 
-
+@import url('http://fonts.googleapis.com/css?family=Vollkorn:italic');
 
 /* ==================== */
 /*  =    @ Page       = */
 /*  =================== */
 
-body {
+#header {
 	background: #fafafa;
 }
 
@@ -57,4 +57,55 @@ body {
 #blog-description {
 	position: absolute;
 	left: -9999px; /* We avoid display:none because it's bad for SEO */
+}
+
+
+/* ==================== */
+/*  =    @ Blocks     = */
+/*  =================== */
+
+
+/* ==================== */
+/*  =    @ Aside      = */
+/*  =================== */
+
+.aside ul ul {
+	list-style: none;
+	margin: 0 0 22px 0;
+}
+
+.entry-title,
+.aside h3 {
+	font-family: 'Vollkorn', Georgia, serif;
+}
+
+.aside h3 {
+	font-size: 1.5em;
+}
+
+/* ==================== */
+/*  =    @ Entries    = */
+/*  =================== */
+
+.entry-title {
+	font-size: 2em;
+}
+
+.entry-meta {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+}
+
+.entry-meta .n,
+.entry-meta abbr {
+	text-transform: none;
+}
+
+/* ==================== */
+/*  =    @ Footer     = */
+/*  =================== */
+
+
+#footer {
+	background: #ddd;
 }
