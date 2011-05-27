@@ -28,10 +28,10 @@
 
 // Unleash the power of Thematic's comment form
 //
-// define('THEMATIC_COMPATIBLE_COMMENT_FORM', true);
+define('THEMATIC_COMPATIBLE_COMMENT_FORM', true);
 
 // Unleash the power of Thematic's feed link functions
 //
-// define('THEMATIC_COMPATIBLE_FEEDLINKS', true);
+define('THEMATIC_COMPATIBLE_FEEDLINKS', true);
 
 ?>
