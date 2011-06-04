@@ -34,6 +34,11 @@ Thematic is © Ian Stewart http://themeshaper.com/
 @import url('http://fonts.googleapis.com/css?family=Vollkorn:italic');
 
 /* ==================== */
+/*  =    @ Globals    = */
+/*  =================== */
+
+
+/* ==================== */
 /*  =    @ Page       = */
 /*  =================== */
 
@@ -45,6 +50,21 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /* ==================== */
 /*  =    @ Header     = */
 /*  =================== */
+
+#header {
+	background-image: -moz-linear-gradient(
+		center top,
+		#fff 20%,
+		#fafafa 70%
+	);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.2, #fff),
+		color-stop(0.7, #fafafa)
+	);
+}
 
 #blog-title a {
 	display: block;
@@ -59,7 +79,6 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	left: -9999px; /* We avoid display:none because it's bad for SEO */
 }
 
-
 /* ==================== */
 /*  =    @ Blocks     = */
 /*  =================== */
@@ -69,18 +88,19 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /*  =    @ Aside      = */
 /*  =================== */
 
+#primary {
+	border: 0;
+	border-left: 1px solid #ddd;
+}
+
 .aside ul ul {
 	list-style: none;
 	margin: 0 0 22px 0;
 }
 
-.entry-title,
-.aside h3 {
-	font-family: 'Vollkorn', Georgia, serif;
-}
-
 .aside h3 {
 	font-size: 1.5em;
+	font-family: 'Vollkorn', Georgia, serif;
 }
 
 /* ==================== */
@@ -88,6 +108,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /*  =================== */
 
 .entry-title {
+	font-family: 'Vollkorn', Georgia, serif;
 	font-size: 2em;
 }
 
