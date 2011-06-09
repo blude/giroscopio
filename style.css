@@ -99,6 +99,10 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	margin: 0 0 22px 0;
 }
 
+.aside ul ul li {
+	padding: 2px 0;
+}
+
 .aside h3 {
 	font-size: 1.5em;
 	font-family: 'Vollkorn', Georgia, serif;
@@ -114,7 +118,9 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	line-height: 1.2em;
 }
 
-.entry-meta {
+.entry-utility,
+.entry-meta,
+.entry-utility a {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-style: normal;
 }
@@ -122,6 +128,8 @@ Thematic is © Ian Stewart http://themeshaper.com/
 .entry-meta .n,
 .entry-meta abbr {
 	text-transform: none;
+	font-size: 1em;
+	letter-spacing: 0;
 }
 
 /* ==================== */
