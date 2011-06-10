@@ -80,6 +80,13 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	left: -9999px; /* We avoid display:none because it's bad for SEO */
 }
 
+.sf-menu li:hover,
+.sf-menu a:hover,
+.sf-menu li.sfHover {
+	border-bottom-color: #eee;
+}
+
+
 /* ==================== */
 /*  =    @ Blocks     = */
 /*  =================== */
