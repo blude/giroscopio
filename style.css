@@ -32,7 +32,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 @import url('../thematic/library/styles/plugins.css');
 
 /* Font for headings */
-@import url('http://fonts.googleapis.com/css?family=Vollkorn:italic');
+@import url('http://fonts.googleapis.com/css?family=Vollkorn');
 
 /* ==================== */
 /*  =    @ Globals    = */
@@ -112,7 +112,8 @@ Thematic is © Ian Stewart http://themeshaper.com/
 
 .aside h3 {
 	font-size: 1.5em;
-	font-family: 'Vollkorn', Georgia, serif;
+	font-family: 'Vollkorn', Georgia, "Times New Roman", Times, serif;
+	font-style: normal;
 }
 
 /* ==================== */
@@ -120,7 +121,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /*  =================== */
 
 .entry-title {
-	font-family: 'Vollkorn', Georgia, serif;
+	font-family: 'Vollkorn', Georgia, "Times New Roman", Times, serif;
 	font-size: 2em;
 	line-height: 1.2em;
 }
