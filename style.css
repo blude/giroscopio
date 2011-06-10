@@ -116,6 +116,16 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	font-style: normal;
 }
 
+.main-aside h3 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.main-aside h3,
+.main-aside h3 a {
+	color: #aeaeae;
+}
+
 /* ==================== */
 /*  =    @ Entries    = */
 /*  =================== */
@@ -124,6 +134,11 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	font-family: 'Vollkorn', Georgia, "Times New Roman", Times, serif;
 	font-size: 2em;
 	line-height: 1.2em;
+}
+
+.entry-meta,
+.entry-utility {
+	color: #999;
 }
 
 .entry-utility,
