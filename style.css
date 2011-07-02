@@ -47,6 +47,13 @@ Thematic is © Ian Stewart http://themeshaper.com/
 	background: #fafafa;
 }
 
+#container {
+	width: 650px;
+}
+
+#content {
+	width: 620px;
+}
 
 /* ==================== */
 /*  =    @ Header     = */
